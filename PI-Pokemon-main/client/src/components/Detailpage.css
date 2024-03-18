@@ -1,0 +1,48 @@
+.detailcard {
+    width: 700px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    display: flex;
+    height: 500px;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .detailcard img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .detailcard h1,
+  h6,
+  h3,
+  h2 {
+    margin: 0;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .separation {
+    display: flex;
+    gap: 3rem;
+  }

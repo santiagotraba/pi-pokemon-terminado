@@ -1,0 +1,54 @@
+.form input, .form select{
+    box-sizing: border-box;
+    height: 3rem;
+    width: 100%;
+    line-height: 1rem;
+    background-color: rgb(231, 231, 231);
+    border: 2px solid #ff0095;
+    padding: 0.25rem;
+  border-radius: 5px;
+
+}
+
+.form button{
+  line-height: 1;
+    height: 3rem;
+  background: #333;
+  cursor: pointer;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    
+}
+
+
+.form button:hover{
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
+
+.form button:active{
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+}
+
+.form-select{
+  max-width: 30rem;
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+

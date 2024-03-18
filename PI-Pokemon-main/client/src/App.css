@@ -1,0 +1,19 @@
+.container-xl{
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem;
+  }
+
+  .pokemons-section{
+    background-color: #43a1d0
+
+  }
+
+  .navbar{
+    padding-top: 10px;
+  }
+
+  body{
+    background-color: #43a1d0
+
+  }
